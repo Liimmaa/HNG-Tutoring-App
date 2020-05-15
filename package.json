@@ -1,0 +1,35 @@
+{
+  "name": "tutoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node_modules/.bin/nodemon  index.js"
+  },
+  "keywords": [
+    "school app",
+    "students",
+    "admin",
+    "resource management",
+    "e-learning"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liimmaa/HNG-Tutoring-App.git"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.7",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^7.2.2",
+    "restify-errors": "^6.1.1",
+    "restify-jwt-community": "^1.0.8",
+    "restify-url-semver": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^1.19.1"
+  }
+}
