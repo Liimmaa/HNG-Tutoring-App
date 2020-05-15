@@ -25,5 +25,6 @@ server.listen(config.PORT, () => {
   db.once('open', () => {
     require('./api/routes/category')(server);
     require('./api/routes/subject')(server);
+    require('./api/routes/muser')(server);
     console.log(`Server started on port ${config.PORT}`);
   });
