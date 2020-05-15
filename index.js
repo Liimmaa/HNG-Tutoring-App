@@ -23,6 +23,7 @@ server.listen(config.PORT, () => {
   db.on('error', err => console.log(err));
 
   db.once('open', () => {
-    require('./api/routes/category')(server);;
+    require('./api/routes/category')(server);
+    require('./api/routes/subject')(server);
     console.log(`Server started on port ${config.PORT}`);
   });
