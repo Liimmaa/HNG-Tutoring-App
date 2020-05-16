@@ -20,6 +20,11 @@ ADMIN======>
 email : haliimmaammegwa@gmail.com
 password : haliimmaa
 ```
+
+## Heroku link
+https://hng-tutoring-app.herokuapp.com/api/v1
+
+
 ## API Endpoints
 
 #### User Routes
